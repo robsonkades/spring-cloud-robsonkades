@@ -10,7 +10,6 @@
         <version>1.0.3-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.robsonkades.boot</groupId>
     <artifactId>spring-cloud-robsonkades-parent</artifactId>
     <name>${project.groupId}:${project.artifactId}</name>
 
