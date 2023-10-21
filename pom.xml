@@ -5,7 +5,7 @@
 
     <groupId>com.robsonkades.spring</groupId>
     <artifactId>spring-cloud-robsonkades</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
 
@@ -20,6 +20,7 @@
         <module>spring-cloud-robsonkades-nosqlpersister</module>
         <module>spring-cloud-robsonkades-sqlpersister</module>
         <module>spring-cloud-robsonkades-dependencies</module>
+        <module>spring-cloud-robsonkades-parent</module>
     </modules>
 
     <properties>
