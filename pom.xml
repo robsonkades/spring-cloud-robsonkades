@@ -5,34 +5,42 @@
 
     <groupId>com.robsonkades.spring</groupId>
     <artifactId>spring-cloud-robsonkades</artifactId>
-    <version>1.0.7-SNAPSHOT</version>
+    <version>1.0.10-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>${project.groupId}:${project.artifactId}</name>
+    <name>com.robsonkades.spring:spring-cloud-robsonkades</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.4</version>
-        <relativePath/>
+        <version>3.1.5</version>
+        <relativePath />
     </parent>
 
     <modules>
         <module>spring-cloud-robsonkades-nosqlpersister</module>
         <module>spring-cloud-robsonkades-sqlpersister</module>
         <module>spring-cloud-robsonkades-dependencies</module>
+        <module>spring-cloud-robsonkades-web</module>
+        <module>spring-cloud-robsonkades-web-reactive</module>
+        <module>spring-cloud-robsonkades-common</module>
     </modules>
 
     <properties>
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-boot-dependencies.version>3.1.4</spring-boot-dependencies.version>
         <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
     </properties>
+
+    <scm>
+        <developerConnection>
+            scm:git:git@github.com:robsonkades/spring-cloud-robsonkades.git
+        </developerConnection>
+    </scm>
 
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <url>https://www.opensource.org/licenses/mit-license.php</url>
         </license>
     </licenses>
 
@@ -52,33 +60,5 @@
             <url>https://maven.pkg.github.com/robsonkades/spring-cloud-robsonkades</url>
         </repository>
     </distributionManagement>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot-dependencies.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
-    <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-maven-plugin</artifactId>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-source-plugin</artifactId>
-                    <version>${maven-source-plugin.version}</version>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
 
 </project>

@@ -6,18 +6,17 @@
     <parent>
         <groupId>com.robsonkades.spring</groupId>
         <artifactId>spring-cloud-robsonkades</artifactId>
-        <version>1.0.7-SNAPSHOT</version>
+        <version>1.0.10-SNAPSHOT</version>
     </parent>
 
     <artifactId>spring-cloud-robsonkades-nosqlpersister</artifactId>
-    <name>${project.groupId}:${project.artifactId}</name>
+    <name>com.robsonkades.spring:spring-cloud-robsonkades-nosqlpersister</name>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot-dependencies.version}</version>
                 <configuration>
                     <skip>true</skip>
                 </configuration>
