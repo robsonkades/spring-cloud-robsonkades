@@ -17,12 +17,12 @@
     </parent>
 
     <modules>
+        <module>spring-cloud-robsonkades-dependencies</module>
+        <module>spring-cloud-robsonkades-common</module>
         <module>spring-cloud-robsonkades-nosqlpersister</module>
         <module>spring-cloud-robsonkades-sqlpersister</module>
-        <module>spring-cloud-robsonkades-dependencies</module>
         <module>spring-cloud-robsonkades-web</module>
         <module>spring-cloud-robsonkades-web-reactive</module>
-        <module>spring-cloud-robsonkades-common</module>
     </modules>
 
     <properties>
