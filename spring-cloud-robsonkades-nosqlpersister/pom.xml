@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>spring-cloud-robsonkades-nosqlpersister</artifactId>
-    <name>com.robsonkades.spring:spring-cloud-robsonkades-nosqlpersister</name>
+    <name>${project.groupId}:${project.artifactId}</name>
 
     <build>
         <plugins>

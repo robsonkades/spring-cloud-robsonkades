@@ -7,7 +7,7 @@
     <artifactId>spring-cloud-robsonkades</artifactId>
     <version>1.0.10-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>com.robsonkades.spring:spring-cloud-robsonkades</name>
+    <name>${project.groupId}:${project.artifactId}</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -38,7 +38,7 @@
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>https://www.opensource.org/licenses/mit-license.php</url>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
         </license>
     </licenses>
 

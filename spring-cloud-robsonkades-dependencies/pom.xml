@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>spring-cloud-robsonkades-dependencies</artifactId>
-    <name>com.robsonkades.spring:spring-cloud-robsonkades-dependencies</name>
+    <name>${project.groupId}:${project.artifactId}</name>
 
     <dependencyManagement>
         <dependencies>
