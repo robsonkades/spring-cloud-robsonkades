@@ -29,11 +29,11 @@
         <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
     </properties>
 
-    <scm>
-        <developerConnection>
-            scm:git:git@github.com:robsonkades/spring-cloud-robsonkades.git
-        </developerConnection>
-    </scm>
+<!--    <scm>-->
+<!--        <developerConnection>-->
+<!--            scm:git:git@github.com:robsonkades/spring-cloud-robsonkades.git-->
+<!--        </developerConnection>-->
+<!--    </scm>-->
 
     <licenses>
         <license>
