@@ -13,6 +13,14 @@
     <artifactId>spring-cloud-robsonkades-dependencies</artifactId>
     <name>${project.groupId}:${project.artifactId}</name>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/robsonkades/spring-cloud-robsonkades</url>
+        </repository>
+    </distributionManagement>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
