@@ -21,8 +21,6 @@
         <module>spring-cloud-robsonkades-common</module>
         <module>spring-cloud-robsonkades-nosqlpersister</module>
         <module>spring-cloud-robsonkades-sqlpersister</module>
-        <module>spring-cloud-robsonkades-starter-web</module>
-        <module>spring-cloud-robsonkades-starter-web-reactive</module>
     </modules>
 
     <properties>
