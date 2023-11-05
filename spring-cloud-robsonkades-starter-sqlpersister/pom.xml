@@ -3,13 +3,21 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.robsonkades.spring</groupId>
+        <groupId>spring-cloud-robsonkades</groupId>
         <artifactId>spring-cloud-robsonkades</artifactId>
-        <version>1.0.10-SNAPSHOT</version>
+        <version>1.1.6-SNAPSHOT</version>
     </parent>
 
-    <artifactId>spring-cloud-robsonkades-sqlpersister</artifactId>
-    <name>com.robsonkades.spring:spring-cloud-robsonkades-sqlpersister</name>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <artifactId>spring-cloud-robsonkades-starter-sqlpersister</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
@@ -19,6 +27,19 @@
                 <configuration>
                     <skip>true</skip>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.11</version>
+                <executions>
+                    <execution>
+                        <id>default-prepare-agent</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
