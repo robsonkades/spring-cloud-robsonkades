@@ -5,7 +5,7 @@
 
     <groupId>spring-cloud-robsonkades</groupId>
     <artifactId>spring-cloud-robsonkades</artifactId>
-    <version>1.1.9-SNAPSHOT</version>
+    <version>1.1.10-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>

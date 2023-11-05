@@ -3,14 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
-    <version>1.1.9-SNAPSHOT</version>
+    <properties>
+        <jacoco-maven-plugin.version>0.8.11</jacoco-maven-plugin.version>
+    </properties>
+    <version>1.1.10-SNAPSHOT</version>
 
-    <parent>
-        <groupId>spring-cloud-robsonkades</groupId>
-        <artifactId>spring-cloud-robsonkades</artifactId>
-        <version>1.1.9-SNAPSHOT</version>
-    </parent>
+<!--    <parent>-->
+<!--        <groupId>spring-cloud-robsonkades</groupId>-->
+<!--        <artifactId>spring-cloud-robsonkades</artifactId>-->
+<!--        <version>1.1.9-SNAPSHOT</version>-->
+<!--    </parent>-->
 
+    <groupId>spring-cloud-robsonkades</groupId>
     <artifactId>spring-cloud-robsonkades-bom</artifactId>
 
     <distributionManagement>
@@ -33,32 +37,32 @@
             <dependency>
                 <groupId>spring-cloud-robsonkades</groupId>
                 <artifactId>spring-cloud-robsonkades-common</artifactId>
-                <version>1.1.9-SNAPSHOT</version>
+                <version>1.1.10-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>spring-cloud-robsonkades</groupId>
                 <artifactId>spring-cloud-robsonkades-configuration</artifactId>
-                <version>1.1.9-SNAPSHOT</version>
+                <version>1.1.10-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>spring-cloud-robsonkades</groupId>
                 <artifactId>spring-cloud-robsonkades-starter-nosqlpersister</artifactId>
-                <version>1.1.9-SNAPSHOT</version>
+                <version>1.1.10-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>spring-cloud-robsonkades</groupId>
                 <artifactId>spring-cloud-robsonkades-starter-sqlpersister</artifactId>
-                <version>1.1.9-SNAPSHOT</version>
+                <version>1.1.10-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>spring-cloud-robsonkades</groupId>
                 <artifactId>spring-cloud-robsonkades-starter-web</artifactId>
-                <version>1.1.9-SNAPSHOT</version>
+                <version>1.1.10-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>spring-cloud-robsonkades</groupId>
                 <artifactId>spring-cloud-robsonkades-starter-webflux</artifactId>
-                <version>1.1.9-SNAPSHOT</version>
+                <version>1.1.10-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
