@@ -5,7 +5,7 @@
 
     <groupId>spring-cloud-robsonkades</groupId>
     <artifactId>spring-cloud-robsonkades</artifactId>
-    <version>1.1.6-SNAPSHOT</version>
+    <version>1.1.8-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
 
@@ -13,7 +13,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.1.5</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
     <modules>
@@ -30,6 +30,7 @@
     <properties>
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jacoco-maven-plugin.version>0.8.11</jacoco-maven-plugin.version>
         <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
     </properties>
 
